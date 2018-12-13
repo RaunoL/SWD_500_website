@@ -1,0 +1,33 @@
+/*Grid*/
+/*row*/
+.row{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+/*container*/
+.container{
+  width: 100%;
+  text-align: center;
+}
+$max_width: 100%;
+$max_cols: 12;
+$single_col: $max_width / $max_cols;
+
+
+@for $i from 1 through 12 {
+
+
+  .col-#{$i} {
+    position: relative;
+    min-height: 1px;
+    flex: 0 0 $single_col * $i }
+}
+
+@media(max-width:1000px){
+  div[class*="col-"]{
+
+    flex:0 0 100%;
+  }
+
+}
