@@ -1,6 +1,6 @@
 # website
 
-> A Vue.js project
+> SWD_500 website
 
 ## Build Setup
 

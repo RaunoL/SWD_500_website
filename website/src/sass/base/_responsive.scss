@@ -1,0 +1,31 @@
+@media all and (max-width:1000px) {
+  #intro{
+    h3{
+      font-size: 2em;
+    }
+    h4{
+      font-size: 1em;
+    }
+  }
+  #about{
+    text-align: center;
+  }
+  #portfolio{
+    .portfolio-item{
+      padding: 0;
+      padding-bottom: 20px;
+      min-height: 0;
+      margin: 50px 10px;
+      border-radius: 20px ;
+    }
+  }
+  #contact{
+    text-align: center;
+    h3{
+      font-size: 2em;
+    }
+    h4{
+      font-size: 1em;
+    }
+  }
+}

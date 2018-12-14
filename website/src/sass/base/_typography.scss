@@ -1,8 +1,17 @@
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Charm|Open+Sans|Roboto');
+h1, h2, h3, h4, h5,h6{
+  margin: 0;
+  font-family: $open-sans;
+}
+p{
+  font-family: $roboto;
+}
+.section-heading h2{
+  font-size: 4em;
+  color: #333333;
+  font-family: $open-sans;
   text-align: center;
-  color: #42b983;
-  margin-top: 60px;
+  margin: 50px 0;
 }

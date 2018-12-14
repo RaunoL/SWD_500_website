@@ -1,0 +1,114 @@
+body{
+  margin:0px;
+  position: relative;
+}
+#intro{
+  margin: 80px 50px ;
+  h3{
+    color: $main-color;
+    font-size: 4em;
+    text-align: center;
+    font-family: $charm;
+    line-height: 1.5em;
+  }
+  h4{
+    color: $main-color;
+    font-size: 1.5em;
+    text-align: end;
+    font-family: $roboto;
+    line-height: 2em;
+  }
+}
+#about{
+  img{
+    border-radius: 50%!important;
+    max-width: 100%;
+    height: auto;
+  }
+  p{
+    font-size: 1.5em;
+    margin: 10px;
+    font-family: $roboto;
+  }
+  div:nth-child(2){
+    align-items: center;
+  }
+
+}
+#skills{
+  text-align: center;
+  img{
+    height: 70%;
+    width: auto;
+  }
+  .border {
+    border-radius: 50%;
+    border: $main-color 5px solid;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  h4{
+    font-family: $open-sans;
+    font-size: 3em;
+    color: $main-color;
+  }
+  p{
+    font-family: $roboto;
+    color: #333333;
+    font-size: 1.3em;
+  }
+  .item{
+    margin: 20px;
+  }
+}
+#portfolio{
+  text-align: center;
+  h4{
+    color: $main-color;
+    font-size: 3em;
+  }
+  p{
+    font-size: 1.3em;
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  .portfolio-item{
+    margin: 20px 80px;
+    padding: 10px 20px ;
+    border-radius: 10%;
+    border: solid black 1px;
+    min-height: 100%;
+  }
+}
+#contact{
+  h3, h4{
+    color: $main-color;
+  }
+  h3{
+    font-size: 3em;
+  }
+  h4{
+    font-size: 2em;
+  }
+  .SM-icon{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    padding: 20px;
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+  img{
+    width: 100%;
+    height: auto;
+
+  }
+}

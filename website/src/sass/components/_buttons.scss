@@ -1,0 +1,18 @@
+#portfolio{
+  .btn{
+    color: #ffffff !important;
+    font-size: 24px;
+    background-color: #1791FF;
+    transition: all 0.3s ease 0s;
+    display: inline-block;
+    text-align: center;
+    border-radius: 40px;
+    padding: 20px;
+    text-decoration: none;
+  }
+  .btn:hover {
+    box-shadow: 0px 15px 20px rgba(23, 145, 255, 0.4);
+    transform: translateY(-7px);
+  }
+
+}

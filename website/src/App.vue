@@ -1,13 +1,36 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <hero/>
+    <div class="container">
+      <intro/>
+      <about/>
+      <skills/>
+      <portfolio/>
+      <contact/>
+    </div>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'App'
-}
+  import hero from './components/hero'
+  import Portfolio from "./components/portfolio";
+  import Contact from "./components/contact";
+  import Intro from "./components/intro";
+  import About from "./components/about";
+  import Skills from "./components/skills";
+
+
+  export default {
+    name: 'App',
+    components: {
+      Skills,
+      About,
+      Intro,
+      Contact,
+      Portfolio,
+      hero
+    }
+  }
 </script>
+
 

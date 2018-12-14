@@ -1,4 +1,9 @@
+@import 'abstracts/_variables.scss';
 @import 'base/_typography.scss';
-@import 'layout/grid.scss';
-
+@import 'layout/_grid.scss';
+@import 'layout/_header.scss';
+@import 'layout/_navigation.scss';
+@import 'pages/_index.scss';
+@import 'components/_buttons.scss';
+@import 'base/_responsive.scss';
 

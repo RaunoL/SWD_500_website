@@ -2,13 +2,14 @@
 /*row*/
 .row{
   display: flex;
-  width: 100%;
   flex-wrap: wrap;
 }
 /*container*/
 .container{
   width: 100%;
-  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
 }
 $max_width: 100%;
 $max_cols: 12;
@@ -20,8 +21,7 @@ $single_col: $max_width / $max_cols;
 
   .col-#{$i} {
     position: relative;
-    min-height: 1px;
-    flex: 0 0 $single_col * $i }
+    flex: 0 0 $single_col * $i}
 }
 
 @media(max-width:1000px){
