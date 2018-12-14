@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <!--<navbar/>-->
     <hero/>
     <div class="container">
       <intro/>
@@ -18,11 +19,13 @@
   import Intro from "./components/intro";
   import About from "./components/about";
   import Skills from "./components/skills";
+  import Navbar from "./components/navbar";
 
 
   export default {
     name: 'App',
     components: {
+      Navbar,
       Skills,
       About,
       Intro,
