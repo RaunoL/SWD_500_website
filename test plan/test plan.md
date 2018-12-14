@@ -5,7 +5,8 @@
 
 Using W3C validation tool the page has been validate. Here are the results:
 
-!['W3C validation results'] [https://github.com/RaunoL/SWD_500_website/blob/master/test%20plan/test%20images/W3C%20CSS.png]
+![alt text](https://github.com/RaunoL/SWD_500_website/blob/master/test%20plan/test%20images/W3C%20CSS.png "W3C validation results")
+
 Test resulted in 4 warnings all of which are recommendations rather than errors
 
 - CSS Validation
